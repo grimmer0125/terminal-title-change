@@ -1,5 +1,8 @@
-# terminal title change
+terminal title change
+=============
 
-## Usage
+^^^^^^^^^^^^^^^^^^^
+Usage
+^^^^^^^^^^^^^^^^^^^
 
-- `termtitle demo_project_root`
+- ``termtitle demo_project_root``
