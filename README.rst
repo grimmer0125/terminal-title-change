@@ -5,12 +5,12 @@ End user Installation
 ---------------------
 
 1. default system python + install globally
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``sudo pip install termtitle``
 
 2. default system python + install in user folder
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``pin install --user termtitle``.
 But you need to modify your path, e.g.
@@ -20,7 +20,7 @@ But you need to modify your path, e.g.
 [Not tested] cases of Python 3 from homebrew should be the same as 1. & 2. except pip3 instead.
 
 3. pyenv non system Python
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``pip install termtitle``.
 

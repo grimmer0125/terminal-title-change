@@ -8,7 +8,7 @@ with io.open('README.rst', 'rt', encoding='utf8') as f:
 
 setup(
     name="termtitle",
-    version="0.1.3",
+    version="0.1.6",
     description = 'A command line program to change macOS terminal title',
     long_description=readme,
     url='https://github.com/grimmer0125/terminal-title-change',
