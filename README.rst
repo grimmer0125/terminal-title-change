@@ -23,4 +23,6 @@ Usage
 Dev
 ^^^^^^^^^^^^^^^^^^^
 
-Use twine to publish: ``twine upload dist/*``
+publish:
+1. ``python setup.py sdist``
+2. Use twine to publish: ``twine upload dist/*``
