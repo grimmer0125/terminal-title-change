@@ -2,7 +2,7 @@ terminal title change
 =============
 
 ^^^^^^^^^^^^^^^^^^^
-Installation
+End user Installation
 ^^^^^^^^^^^^^^^^^^^
 
 1.
@@ -18,3 +18,9 @@ Usage
 ^^^^^^^^^^^^^^^^^^^
 
 - ``termtitle demo_project_root``
+
+^^^^^^^^^^^^^^^^^^^
+Dev
+^^^^^^^^^^^^^^^^^^^
+
+Use twine to publish: ``twine upload dist/*``
