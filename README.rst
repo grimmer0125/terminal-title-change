@@ -12,7 +12,7 @@ But you need to modify your path, e.g.
 ``python2.7 -m site &> /dev/null && PATH="$PATH:`python2.7 -m site --user-base`/bin"``
 (ref: https://stackoverflow.com/a/48380776/7354486)
 
-cases of Python 3 (from homebrew) are the same as 1. & 2. except pip3 instead.
+[Not tested] cases of Python 3 from homebrew should be the same as 1. & 2. except pip3 instead.
 
 3. pyenv non system Python: ``pip install termtitle``.
 
