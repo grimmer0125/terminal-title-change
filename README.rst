@@ -1,9 +1,9 @@
 terminal title change
-=============
+=====================
 
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 End user Installation
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 1.
 install globally: ``sudo pip install termtitle``
@@ -24,5 +24,6 @@ Dev
 ^^^^^^^^^^^^^^^^^^^
 
 publish:
-1. ``python setup.py sdist``
-2. Use twine to publish: ``twine upload dist/*``
+1. ``python setup.py check --restructuredtext -s`` do some check before publishing
+2. ``python setup.py sdist``
+3. Use twine to publish: ``twine upload dist/*``
