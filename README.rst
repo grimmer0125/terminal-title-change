@@ -4,8 +4,8 @@ terminal title change
 End user Installation
 ---------------------
 
-1. default system python + install globally
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1. default system python + install globally (for each user)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``sudo pip install termtitle``
 
@@ -13,14 +13,20 @@ End user Installation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``pin install --user termtitle``.
-But you need to modify your path, e.g.
-``python2.7 -m site &> /dev/null && PATH="$PATH:`python2.7 -m site --user-base`/bin"``
-(ref: https://stackoverflow.com/a/48380776/7354486)
 
-[Not tested] cases of Python 3 from homebrew should be the same as 1. & 2. except pip3 instead.
+But you need to add Python bin directories to PATH,
 
-3. pyenv non system Python
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+- test it first, ``python2.7 -m site &> /dev/null && PATH="$PATH:`python2.7 -m site --user-base`/bin"`` (ref: https://stackoverflow.com/a/48380776/7354486)
+- ``termtitle random_title``
+- if you see your titles change, then you can permanently change your PATH, ``echo 'export PATH="$PATH:`python2.7 -m site --user-base`/bin"' >>~/.bash_profile``
+
+3. Python 3 from homebrew (via "brew install python3")
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+``pip3 install termtitle``.
+
+4. non system Python of pyenv
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ``pip install termtitle``.
 
