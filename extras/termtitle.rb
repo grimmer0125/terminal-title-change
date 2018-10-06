@@ -1,6 +1,6 @@
 class Termtitle < Formula
   homepage ""
-  url "https://github.com/grimmer0125/terminal-title-change/archive/v0.1.7.tar.gz"
+  url "https://github.com/grimmer0125/terminal-title-change/archive/v0.1.8.tar.gz"
   sha256 "0c8f60819b7caa7f6bc087534cdbbfa814ba89e0658b53a65dc5bc2d6cd0d99f"
 
   def install    
@@ -32,5 +32,8 @@ class Termtitle < Formula
     #     sys.exit(
     #         load_entry_point('termtitle==0.1.7', 'console_scripts', 'termtitle')()
     #     )
-  end  
+  end
+  test do
+    system "#{bin}/termtitle new_title"
+  end
 end
