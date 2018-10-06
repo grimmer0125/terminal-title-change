@@ -4,7 +4,7 @@ terminal title change
 End user Installation via Homebrew
 ----------------------------------
 
-``brew install terminal``
+``brew install termtitle``
 
 If it is not accessable, try 
 
