@@ -13,6 +13,8 @@ If it is not accessable, try
 End user Installation via pip
 -----------------------------
 
+.. image:: https://img.shields.io/pypi/dw/termtitle.svg
+
 Thare are several ways to install, and it depends on your Python environment and preference.
 
 1. default system python + install globally (accessable for each user)
