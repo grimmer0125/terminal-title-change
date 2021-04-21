@@ -46,6 +46,9 @@ But you need to add Python bin directories to PATH,
 Usage
 ---------------------
 
+If you are using zsh and this package does not take effect, you might need to set `DISABLE_AUTO_TITLE="true"` in `~/.zshrc` and restart shell to try again.
+
+
 - ``termtitle demo_project_root``
 - ``termtitle 這是秘密的鋼彈計劃``
 - ``termtitle サイボーグ009のメンバー``
@@ -54,6 +57,11 @@ Usage
 
 Dev
 ---------------------
+
+local test:
+
+- Install: `python setup.py install`
+- Uninstall: `pip uninstall termtitle`
 
 publish:
 
